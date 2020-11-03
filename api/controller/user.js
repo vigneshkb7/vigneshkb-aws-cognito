@@ -3,8 +3,7 @@ const AWS = require('../utils/aws');
 
 
 const cognito_client = new AWS.CognitoIdentityServiceProvider({
-    apiVersion: "2020-10-31",
-    region:"us-east-2"
+    
 })
 
 
